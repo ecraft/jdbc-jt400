@@ -17,7 +17,5 @@ Jdbc::JT400.load_driver
 
 Copyright &copy; 2017 [eCraft](http://apps.ecraft.com)
 
-This Rubygem is licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-The JT400 JDBC driver ("IBM Toolbox for Java") is distributed under the IBM public license
-(IPL): https://opensource.org/licenses/ibmpl.php
+This Rubygem and the JT400 JDBC driver ("IBM Toolbox for Java") is distributed under the IBM public license
+(IPL 1.0): [LICENSE.md](LICENSE.md)
