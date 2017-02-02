@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Install this gem `require 'jdbc/jt400'` and invoke `Jdbc::JT400.load_driver` within JRuby to load " \
                        'the driver.'
   spec.homepage      = 'https://github.com/ecraft/jdbc-jt400'
-  spec.licenses      = ['MIT']
+  spec.licenses      = ['IPL 1.0']
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ['lib']
