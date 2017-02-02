@@ -8,8 +8,10 @@ For more information see http://jt400.sourceforge.net/
 
 To make the driver accessible to JDBC and ActiveRecord code running in JRuby :
 
-    require 'jdbc/jt400'
-    Jdbc::JT400.load_driver
+```ruby
+require 'jdbc/jt400'
+Jdbc::JT400.load_driver
+```
 
 ## Copyright
 
