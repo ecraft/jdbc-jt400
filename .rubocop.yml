@@ -1,10 +1,19 @@
-Lint/EndAlignment:
+Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
+Layout/IndentArray:
+  EnforcedStyle: consistent
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
 
 Metrics/LineLength:
   Max: 132
 Metrics/MethodLength:
   Severity: warning
+
+Naming/FileName:
+  Enabled: false
 
 # Rationale: allow Weirich-style blocks
 Style/BlockDelimiters:
@@ -13,15 +22,7 @@ Style/Documentation:
   Enabled: false
 Style/Encoding:
   Enabled: false
-Style/FileName:
-  Enabled: false
-Style/MultilineMethodCallIndentation:
-  EnforcedStyle: indented
-Style/MultilineOperationIndentation:
-  EnforcedStyle: indented
 Style/RegexpLiteral:
   Enabled: false
 Style/Alias:
   Enabled: false
-Style/IndentArray:
-  EnforcedStyle: consistent
