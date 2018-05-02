@@ -1,7 +1,8 @@
+# -*- encoding: utf-8 -*-
+
 # frozen_string_literal: true
 
-# -*- encoding: utf-8 -*-
-$LOAD_PATH << File.expand_path('../lib', __FILE__)
+$LOAD_PATH << File.expand_path('lib', __dir__)
 require 'jdbc/jt400/version'
 
 Gem::Specification.new do |spec|
@@ -20,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'rspec', '~> 3.5'
-  spec.add_development_dependency 'rubocop', '~> 0.47'
+  spec.add_development_dependency 'rubocop', '~> 0.55'
 end
