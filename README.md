@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/jdbc-jt400.svg)](https://badge.fury.io/rb/jdbc-jt400)
+
 # jdbc-jt400
 
 A Ruby gem which wraps the IBM Toolbox for Java (i.e. JTOpen), which allows Java programs to connect to DB2 on IBM i (or i5/OS
